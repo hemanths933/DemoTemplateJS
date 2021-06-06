@@ -3,6 +3,7 @@ from flask import request
 from flask_cors import CORS
 from flask import jsonify
 import random
+from waitress import serve
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
@@ -18,6 +19,5 @@ def sample1():
     names_list = ['Hemanth', 'KVB', 'Supreeth', 'KMTH']
     return jsonify({'data': random.choices(names_list, k=100)})
     
-
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8020, debug=True)
+   serve(app.run(host='0.0.0.0', port=8020, debug=True))

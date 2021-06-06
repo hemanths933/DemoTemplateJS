@@ -1,7 +1,7 @@
 function execute(input_string){  
     console.log(input_string);  
 
-    var url = "https://hot-snake-80.loca.lt/sample1"
+    var url = "https://itchy-gecko-47.loca.lt/sample1"
 
     fetch(url, {
     method: 'POST',
