@@ -34,7 +34,8 @@ cd Backend<br>
 
 <b>Windows:</b><br>
 > python app.py<br>
-<br>
+
+
 <b>Linux:</b><br>
 > gunicorn -w 1 --threads 1 -b :8020 app:app<br>
 <br>
@@ -42,7 +43,8 @@ cd Backend<br>
 ### Step 2:  Run UI on node.js http-server <br>
 <br>
 Open a terminal<br>
-<br>
+
+
 > http-server<br>
 
 ### Step 3:  Make a tunnel for UI<br>
