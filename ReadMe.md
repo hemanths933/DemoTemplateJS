@@ -30,7 +30,8 @@ serve(app.run()) to app.run<br>
 
 Open a terminal <br>
 <br>
->cd Backend<br>
+cd Backend<br>
+
 <b>Windows:</b><br>
 > python app.py<br>
 <br>
